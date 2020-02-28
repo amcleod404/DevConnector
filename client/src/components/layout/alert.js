@@ -1,6 +1,6 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { connect } from "react-redux";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { connect } from 'react-redux';
 
 const Alert = ({ alerts }) =>
   alerts !== null &&
@@ -11,7 +11,7 @@ const Alert = ({ alerts }) =>
     </div>
   ));
 
-Alert.PropTypes = {
+Alert.propTypes = {
   alerts: PropTypes.array.isRequired
 };
 
